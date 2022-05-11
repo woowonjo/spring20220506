@@ -12,13 +12,6 @@
 		http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.3.xsd
 		http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd
 		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.3.xsd">
-	
-	<context:property-placeholder location="classpath:jdbc.properties"/>
-	
-	<bean id="dataSource" class="org.mariadb.jdbc.MariaDBPoolDataSource" destroy-method="close">
-		<property name="url" value="${db.fullUrl}"></property>
-	</bean>
-	
-	<!-- Root Context: defines shared resources visible to all other web components -->
-		
+
+
 </beans>
