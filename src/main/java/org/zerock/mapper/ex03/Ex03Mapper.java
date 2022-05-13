@@ -18,6 +18,8 @@ public interface Ex03Mapper {
 
 	int deleteBoard(int id);
 
+	int insertBoard(BoardDto board);
+
 }
 
 
